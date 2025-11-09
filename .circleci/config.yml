@@ -29,7 +29,7 @@ jobs:
           name: deploy_app_to_railway
           command: |
             cd bankchurn-api
-            railway up --service=courageous-benevolence
+            railway up --service=5af07b74-b211-4b67-b705-a042ca0748c0
             railway up --detach
 
 
